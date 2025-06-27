@@ -5,6 +5,7 @@
 #' @param h0 Fitness of a double heterozygote genotype
 #'
 #' @return A filled contour plot of fitness across hybrid genotypic space
+#' @export
 
 dmi_plot <- function(h2, h1, h0){
   p2 <- seq(0, 1, l = 300)
