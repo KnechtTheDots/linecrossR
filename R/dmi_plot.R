@@ -1,3 +1,11 @@
+#' Plot Hybrid Fitness of a Dobzhansky-Muller Incompatibility
+#'
+#' @param h2 Fitness of an alternate ancestry homozygous genotype
+#' @param h1 Fitness of a homozygous x heterozygous genotype
+#' @param h0 Fitness of a double heterozygote genotype
+#'
+#' @return A filled contour plot of fitness across hybrid genotypic space
+
 dmi_plot <- function(h2, h1, h0){
   p2 <- seq(0, 1, l = 300)
   ph <- seq(0, 1, l = 300)
