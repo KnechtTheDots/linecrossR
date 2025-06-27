@@ -12,3 +12,5 @@ Imports:
     dplyr,
     ggplot2,
     metR
+URL: https://github.com/KnechtTheDots/linecrossR
+BugReports: https://github.com/KnechtTheDots/linecrossR/issues
