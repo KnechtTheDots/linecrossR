@@ -30,7 +30,7 @@ dmi_plot <- function(h2, h1, h0){
                                                       xend = xend,
                                                       yend = yend),
                           inherit.aes = F,
-                          linewidth = 1.2,
+                          linewidth = 2,
                           color = "grey",
                           lineend = "round") +
     ggplot2::labs(x = "Ancestry Proportion",
@@ -41,5 +41,5 @@ dmi_plot <- function(h2, h1, h0){
                    legend.title.position = "bottom",
                    legend.key.size = ggplot2::unit(50, "pt"),
                    legend.key.height = ggplot2::unit(10, "pt"),
-                   legend.title.align = .5)
+                   legend.title = ggplot2::element_text(hjust = .5))
 }
