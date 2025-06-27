@@ -30,7 +30,7 @@ dmi_plot <- function(h2, h1, h0){
                                                       xend = xend,
                                                       yend = yend),
                           inherit.aes = F,
-                          linewidth = 2,
+                          linewidth = 2.0,
                           color = "grey",
                           lineend = "round") +
     ggplot2::labs(x = "Ancestry Proportion",
