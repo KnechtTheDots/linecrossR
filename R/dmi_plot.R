@@ -1,3 +1,5 @@
+utils::globalVariables(c("p22", "p11", "fit", "x", "y", "xend", "yend"))
+
 #' Plot Hybrid Fitness of a Dobzhansky-Muller Incompatibility
 #'
 #' @param h2 Fitness of an alternate ancestry homozygous genotype
