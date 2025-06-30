@@ -13,5 +13,5 @@ prep_input <- function(dep_var, anc_prop, anc_het){
   theta_h <- 2*anc_het - 1
   X <- matrix(c(rep(1,N), theta_s, theta_h,
                 theta_s^2, theta_s*theta_h, theta_h^2), nrow = N)
-  return(list(N = N, X = X))
+  return(list(N = N, y = dep_var, X = X))
 }
