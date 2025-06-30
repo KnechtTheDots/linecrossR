@@ -26,7 +26,7 @@ from a hypothetical Dobzhansky-Muller incompatibility:
 ``` r
 library(linecrossR)
 
-dmi_plot(h2 = .5, h1 = .5, h0 = .5)
+dmi_plot(h2 = .5, h1 = .5, h0 = .5) 
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
