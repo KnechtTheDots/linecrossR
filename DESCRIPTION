@@ -20,3 +20,5 @@ LazyData: true
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Additional_repositories:
+    https://mc-stan.org/r-packages/
